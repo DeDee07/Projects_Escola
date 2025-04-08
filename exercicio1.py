@@ -44,6 +44,9 @@ def exercicio_4():
     print("A multiplicação é:", multiplicacao)
     print("A Divisão é:", divisao)
 
+def exercicio_5():
+
+
 def menu():
     while True:
         print("\n" + "="*30)
@@ -52,6 +55,8 @@ def menu():
         print("1. Soma de dois números")
         print("2. Adivinha o número")
         print("3. Contagem de x até y")
+        print("4. Operações matemáticas")
+        print("5. Palavra-passe Forte")
         print("0. Sair do Exercício")
         print("\n" + "="*30)
 
@@ -63,6 +68,8 @@ def menu():
             exercicio_2()
         elif escolha == '3':
             exercicio_3()
+        elif escolha == '4':
+            exercicio_4()
         elif escolha == '0':
             print("tchauzinho...")
             break
