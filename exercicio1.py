@@ -45,7 +45,28 @@ def exercicio_4():
     print("A Divisão é:", divisao)
 
 def exercicio_5():
+    palavra_passe1 = str(input("Escreve a tua palavra-passe: "))
+    palavra_passe2 = str(input("Escreve outra vez a tua palavra-passe: "))
 
+    if palavra_passe1 == palavra_passe2:
+        print("As Palavras-passe coincidem!")
+    else:
+        print("As palavras-passe não coincidem. Tenta novamente!")
+
+def exercicio_6():
+    palavra = str(input("Escreva uma frasse/texto para ver quantas vogais: "))
+    vogais = "aeiouAEIOU"
+    contador = 0
+
+    for letra in palavra:
+        if letra in vogais:
+            contador +=1
+
+    print(f"O número de vogais na frasse/texto é: {contador}")
+    
+
+def exercicio_7():
+    print("Eu não sei realmente fazer isto :( ")
 
 def menu():
     while True:
@@ -70,6 +91,12 @@ def menu():
             exercicio_3()
         elif escolha == '4':
             exercicio_4()
+        elif escolha == '5':
+            exercicio_5()
+        elif escolha == '6':
+            exercicio_6()
+        elif escolha == '7':
+            exercicio_7()
         elif escolha == '0':
             print("tchauzinho...")
             break
