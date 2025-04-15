@@ -42,6 +42,8 @@ def menu():
             dado_pessoais()
         elif escolha == '2':
             dado_musicais()
+        elif escolha == '3':
+            dado_jogos()
         elif escolha == '0':
             print("Tchauzinho...")
             break
