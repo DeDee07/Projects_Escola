@@ -1,6 +1,6 @@
 ## Meus projetos da Escola
 
-- Meus projetos da Escola, esta pasta foi feita nos anos 2025/2027. Se precisar de alguma coisa ou tiver alguma pergunta sobre está página vai a -![dedeee.dev@gmail.com]
+- Meus projetos da Escola, esta pasta foi feita nos anos 2025/2027. Se precisar de alguma coisa ou tiver alguma pergunta sobre está página vai a [dedeee.dev@gmail.com]
 
 ---
 ## Como estão dividas as pastas?
